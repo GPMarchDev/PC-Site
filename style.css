@@ -1,0 +1,109 @@
+/* Resets the page so the top bar touches the edges */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0; 
+  font-family: sans-serif;
+}
+
+/* The SBU Red Top Bar (Updated for Flexbox) */
+.top-bar {
+  background-color: #990000; 
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar h1 {
+  margin: 0; 
+}
+
+/* The Navigation Button */
+.nav-button {
+  background-color: #ffffff;
+  color: #990000;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* The Subtitle Banner */
+.subtitle-banner {
+  background-color: #1e1e1e; 
+  padding: 15px 40px;
+  text-align: left;
+  border-bottom: 2px solid #990000;
+}
+
+.subtitle-banner h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+/* Updated Flexbox container */
+.hero-section {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  padding: 50px;
+}
+
+/* New styling for your text box */
+.business-description {
+  width: 50%; 
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* The SBU Red Square */
+.hero-image-container {
+  background-color: #990000;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.hero-image-container img {
+  height: 400px;
+  width: auto;
+  max-width: 100%;
+  filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 0.6));
+}
+
+/* Updated text color for better contrast */
+.subtext {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* PC Specifications */
+.PCspecs {
+  color: #ffffff;
+  font-size: 1.0rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+/* Styles the email link */
+.business-description a {
+  color: #ff4d4d; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Adds an effect when you hover over the link */
+.business-description a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
